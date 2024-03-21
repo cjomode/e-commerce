@@ -1,6 +1,8 @@
-
+*{
+    margin: 0;
+}
 body{
-    background-image: linear-gradient(#C3F7EB,#A5BEFA);
+    background-color: rgb(189, 176, 199);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -13,20 +15,23 @@ ul{
 #cabecalho{
     display: flex;
 }
+nav{
+    margin-top: 25px;
+}
 
 #logo{
     width: 50px;
-    padding: 5px 20px ;
+    padding: 10px 20px ;
 }
 
 #cabecalho nav li a {
     font-size: 20px;
-    padding: 20px 20px;
+    padding: 10px 20px ;
 }
 
 
 #cabecalho nav li a:hover {
-    border-bottom:solid;
+    border-bottom: 2px solid;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -38,15 +43,22 @@ ul{
     width: 240px;
     height: 30px;
     margin-top: 10px; */
-    padding-top: 19px;
+    padding-top: 25px;
     padding-left: 50px;
     padding-right: 60px;
 }
 
+#bem-vindo{
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+
 h3{
     text-align: center;
-    padding-bottom: 10px;
-    font-weight: lighter;
+    padding-top: 16px;
+    padding-bottom: 20px;
+    font-weight: lighter; 
 }
 
 #imagem-card{
@@ -60,12 +72,11 @@ a{
 }
 .flex-container{
     display: flex;
-    background-color: rgb(240, 57, 118);
+    background-color: rgb(116, 100, 119);
     justify-content: center;
-
 }
 .flex-container div{
-    background-color: rgb(203, 240, 235);
+    background-color: rgb(244, 225, 252);
     padding: 15px;
     margin: 15px;
     line-height: 20px;
@@ -89,7 +100,7 @@ a{
     
 }
 .grid-item h3{
-    background-color: coral;
+    background-color: rgb(214, 80, 255);
     padding: 5px;
     margin: 10px;
     border-radius: 5px;
@@ -114,3 +125,8 @@ a{
     transform: scale(1.1)
 }
 
+footer div{ 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
