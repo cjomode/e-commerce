@@ -37,16 +37,11 @@ nav{
 }
 
 #busca{
-    /* background-color:#E0EEEE;
-    border:solid 1px #5F9EA0;
-    border-radius: 5px;
-    width: 240px;
-    height: 30px;
-    margin-top: 10px; */
     padding-top: 25px;
     padding-left: 50px;
     padding-right: 60px;
 }
+
 
 #bem-vindo{
     text-align: center;
@@ -119,6 +114,51 @@ a{
 }
 #imagem-card-3{
     width: 210px;
+}
+#imagem-card-5{
+    width: 222px;
+}
+#imagem-card-6{
+    width: 215px;
+}
+#imagem-card-7{
+    width: 214px;
+}
+#imagem-card-8{
+    width: 210px;
+}
+#imagem-card-9{
+    width: 214px;
+}
+#imagem-card-10{
+    width: 215px;
+}
+#imagem-card-11{
+    width: 208px;
+}
+#imagem-card-12{
+    width: 217px;
+}
+#imagem-card-13{
+    width: 216px;
+}
+#imagem-card-14{
+    width: 216px;
+}
+#imagem-card-16{
+    width: 212px;
+}
+#imagem-card-17{
+    width: 215px;
+}
+#imagem-card-18{
+    width: 222px;
+}
+#imagem-card-19{
+    width: 215px;
+}
+#imagem-card-20{
+    width: 215px;
 }
 
 .grid-item h3:hover{
