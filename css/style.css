@@ -15,7 +15,8 @@ ul{
 #cabecalho{
     display: flex;
 }
-nav{
+
+div .menu {
     margin-top: 25px;
 }
 
@@ -29,19 +30,15 @@ nav{
     padding: 10px 20px ;
 }
 
-
 #cabecalho nav li a:hover {
     border-bottom: 2px solid;
     cursor: pointer;
     transition: 0.2s;
 }
 
-#busca{
-    padding-top: 25px;
-    padding-left: 50px;
-    padding-right: 60px;
+p{
+    padding-top: 9px;
 }
-
 
 #bem-vindo{
     text-align: center;
@@ -76,7 +73,7 @@ a{
     margin: 15px;
     line-height: 20px;
     font-size: 20px;
-    border-radius: 15px;
+    border-radius: 5px;
 } 
 
 .grid-container{
